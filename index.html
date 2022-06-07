@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- header-->
+    <div class="bg-cyan-900 p-4 flex justify-between items-center">
+      <div class="header__innner flex items-center">
+        <img
+          src="https://cdn2.iconfinder.com/data/icons/new-year-resolutions/64/resolutions-16-256.png"
+          width="50"
+          alt=""
+        />
+        <a href="#" class="inline-block p-3 text-slate-50 hover:text-cyan-500 transition linear delay-75" 
+          >Home</a
+        >
+        <a href="#" class="inline-block p-3 text-slate-50 hover:text-cyan-500 transition linear delay-75"
+          >About</a
+        >
+        <a href="#" class="inline-block p-3 text-slate-50 hover:text-cyan-500 transition linear delay-750"
+          >Contact us</a
+        >
+      </div>
+      <div class="right__side">
+        <a
+          href="#"
+          class="inline-block text-white px-5 py-2 mr-3 bg-rose-400 hover:bg-rose-700 transition linear transition-duration:150 rounded"
+          >Login</a
+        >
+        <a
+          href="#"
+          class="inline-block text-white px-4 py-2 bg-gray-400 hover:bg-gray-500 transition linear transition-duration:150s rounded"
+          >Sign up</a
+        >
+      </div>
+    </div>
+    <!-- hero -->
+
+    <div class="hero bg-cyan-600 lg:flex justify-between p-10 mb-10 md:mb-0">
+        <div class="left__side-hero text-white md:w-1/2 py-10">
+            <h2 class="md:text-4xl mb-4 text-lime-50">Welcome to magic city</h2>
+            <p class="mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui suscipit error perferendis explicabo placeat corporis? Eius culpa nisi quos vitae corrupti delectus error ut necessitatibus!</p>
+            <a href="#" class="inline-block m-3 py-3 px-6 text-lg bg-sky-400 text-white-800 rounded hover:bg-sky-500">Learn more</a>
+            <a href="#" class="inline-block py-3 px-6 text-lg bg-orange-400 text-orange-800 hover:bg-orange-300 rounded mx-4">Get started</a>
+        </div>
+        <div class="right__side-hero md:w-1/2">
+            <img class="w-full shadow-2x1 rounded" src="https://images.unsplash.com/photo-1623184267075-ffe305a9119b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG1hZ2ljJTIwY2l0eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60 " alt="magic city">
+        </div>
+    </div>
+
+    <!-- features -->
+    <h3 class="text-center text-4xl  bg-cyan-700 text-lime-100">The Magic cities</h3>
+    <div class="features md:flex py-16 px-10  bg-cyan-700 text-center">
+        <div class="features__items mr-3 text-center">
+            <img class="w-full rounded border-solid border-2" src="https://images.unsplash.com/photo-1515036551567-bf1198cccc35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80" alt="">
+            <p class="text-slate-100 text-xl capitalize md:mt-4 mt-0 mb-6">A city is a large human settlement</p>
+        </div>
+        <div class="features__items mr-3 text-center">  
+            <img class="w-full rounded mt-8 border-solid border-2" src="https://images.unsplash.com/photo-1415356838286-df6fd593e8b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+            <p class="text-slate-100 text-xl capitalize md:mt-4 mt-0 mb-6">Historically city-dwellers</p>
+        </div>
+        <div class="features__items mr-3 text-center">
+            <img class="w-full rounded border-solid border-2" src="https://images.unsplash.com/photo-1562360118-c96163830d2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80" alt="">
+            <p class="text-slate-100 text-xl capitalize md:mt-4 mt-0 mb-6">For example country capitals such</p>
+        </div>
+        <div class="features__items mr-3 text-center">
+            <img class="w-full rounded mt-8 border-solid border-2" src="https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+            <p class="text-slate-100 text-xl capitalize md:mt-4 mt-0 mb-6">capital status Religious</p>
+        </div>
+    </div>
+    <!-- footer + newslatter -->
+    <div class="footer p-10 bg-cyan-900 md:flex justify-between items-center">
+        <div class="newslatter  md:w-1/2">
+            <span class="text-2xl capitalize mb-5 text-cyan-300">Join The newslatter</span>
+            <form class="mt-2 w-full flex" action="https://echo.htmlacademy.ru/" method="post">
+                <input class="w-full rounded px-3 py-2 outline-none" type="email" placeholder="plase check your email">
+                <button class="bg-red-400 px-6 py-2 ml-2 rounded text-white hover:bg-red-300">Join</button>
+            </form>
+        </div>  
+        <div class="copyright px-3 py-2 mt-2">
+            Copyright &copy; 2022 infinty Magic cities.
+        </div>
+    </div>
+  </body>
+</html>
